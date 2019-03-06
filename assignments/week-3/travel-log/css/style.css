@@ -1,0 +1,239 @@
+    /* normalize */
+    body {
+        height: 100%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+        padding:0;
+        line-height: 1.2em;
+        text-transform: uppercase;
+    }
+    h4 {
+        padding: 5px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        margin: 0 20px;
+    }
+
+    p {
+        padding: 0 5px;
+    }
+
+    /* Typography */
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 240%;
+        margin: 0;
+        line-height: 1.2em;
+        text-transform: uppercase;
+        font-size: 7rems;
+    }
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0 10px 15px;
+        text-transform: capitalize;
+        letter-spacing: .2rem;
+        line-height: 1.4em;
+        font-size: 75%;
+    }
+
+    p,
+    nav,
+    div,
+    a,
+    figcaption,
+    span {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Nav bar*/
+
+    /* links */
+    ul.page-links {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .page-links li {
+        float: left;
+    }
+
+    .page-links a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .page-links a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    .page-links .active {
+        background-color: #ffbf00;
+        color: black;
+    }
+
+    /* social links */
+    ul.social-links {
+        list-style-type: none;
+        /* trick to getting text to center */
+        /* set height = line-height */
+        height: 48px;
+        line-height: 48px;
+    }
+
+    .social-links li {
+        display: inline-block;
+        width: 5rem;
+        background-color: #ffbf00;
+        text-align: center;
+    }
+
+    .social-links a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .social-links a:hover {
+        color: white;
+    }
+
+    .social-links li:hover {
+        background: gray;
+    }
+
+    /* relative positioning to pull navigation left and social links right */
+    nav {
+        position: relative;
+        height: 48px;
+        background-color: black;
+    }
+
+    .nav-right {
+
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav-left {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+
+    /* big image */
+    figure#big-image {
+        margin: 0;
+    }
+
+    .big-image img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* table layout for recent blogs and about */
+    .table {
+        display: table;
+        height: 100%;
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: separate;
+        border-spacing: 10px;
+    }
+
+    .row {
+        display: table-row;
+    }
+
+    .col {
+        display: table-cell;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+    }
+
+    .col p {
+        font-size: 1rem;
+    }
+
+    /* float text around images */
+    .wrapped {
+        display: block;
+        float: left;
+        padding: 5px;
+    }
+
+
+    /* about all to action */
+
+    .cta {
+        width: 11rem;
+        margin: auto;
+        text-align:center;
+    }
+
+    .cta-button {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        background: red;
+        color: white;
+        border-radius: 30px;
+    }
+
+    /* footer */
+    footer {
+        background-color: #333;
+        height: 4rem;
+        color: white;
+    }
+
+    
+    /* relative positioning for pull right/left */
+    footer {
+        padding: 20px;
+        position: relative;
+        float: left;
+        left: 0.00%;
+        width: 100.00%;
+    }
+
+    .footer-left {
+        position: absolute;
+        left: 0.50%;
+    }
+
+    .footer-right {
+        position: absolute;
+        right: 0.50%;
+    }
+
+
+
+   

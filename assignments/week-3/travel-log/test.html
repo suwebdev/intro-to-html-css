@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test side by side images</title>
+    <style>
+        @media only screen and (min-width: 1128px) {
+            div {
+                width: 31%;
+                border: solid 1px;
+                float: left;
+                margin: .1rem;
+            }
+
+            .fixed {
+                height: 300px;
+            }
+        }
+        @media only screen and (max-width: 1127){
+            height: auto;
+
+        }
+
+        div {
+            padding: 10px;
+        }
+        img {
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+
+        .fixed {
+            background-color:rgb(243, 241, 241);
+        }
+
+        .clear {
+            clear: both;
+            border-top: solid 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed">
+        <img src="http://placekitten.com/200/150">
+        <p>This is the first picture. Maecenas id feugiat augue, a egestas eros. Pellentesque habitant morbi tristique
+            senectus et netus et malesuada fames ac turpis egestas.</p>
+    </div>
+    <div class="fixed">
+        <img src="http://placekitten.com/200/150">
+        <p>This is the second picture, though it has fixed height.</p>
+    </div>
+    <div class="fixed">
+        <img src="http://placekitten.com/200/150">
+        <p>This is the third picture which also has a fixed height. Natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Sed euismod mollis blandit.</p>
+    </div>
+    <p class="clear">This clears all.</p>
+</body>
+
+</html>
