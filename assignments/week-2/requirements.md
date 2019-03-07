@@ -54,16 +54,26 @@
     - color
     - background-color
 
-### Links
+### Links to unsolved
     
-[HTML: Structure and Semantics](https://rpeltz.bitbucket.io/assignments/week-1/1-html-structure-semantics/index.html)  
-[CSS: Inheritance and Specificity](https://rpeltz.bitbucket.io/assignments/week-1/2-css-inheritance-specificity/index.html)  
-[Box Model](https://rpeltz.bitbucket.io/assignments/week-1/3-box-model/index.html)  
-[Layout Horizontal](https://rpeltz.bitbucket.io/assignments/week-1/4-layout-horizontal/index.html)  
-[Layout 2D](https://rpeltz.bitbucket.io/assignments/week-1/5-layout-2d/index.html)  
-[Image Float Text](https://rpeltz.bitbucket.io/assignments/week-1/5-images-float-text/index.html)  
-[Web Linking and Navigation](https://rpeltz.bitbucket.io/assignments/week-1/7-web-linking-navigation/index.html)  
-[Fonts and Text](https://rpeltz.bitbucket.io/assignments/week-1/8-font-text/index.html)  
+[HTML: Structure and Semantics](assignments/week-1/1-html-structure-semantics/index.html)  
+[CSS: Inheritance and Specificity](assignments/week-1/2-css-inheritance-specificity/index.html)  
+[Box Model](assignments/week-1/3-box-model/index.html)  
+[Layout Horizontal](assignments/week-1/4-layout-horizontal/index.html)  
+[Layout 2D](assignments/week-1/5-layout-2d/index.html)  
+[Image Float Text](assignments/week-1/5-images-float-text/index.html)  
+[Web Linking and Navigation](assignments/week-1/7-web-linking-navigation/index.html)  
+[Fonts and Text](assignments/week-1/8-font-text/index.html)
+
+### Links to sovled (meant only for instructor, but could be released after week 2 graded)
+[HTML: Structure and Semantics](https://rpeltz.bitbucket.io/assignments/week-2/1-html-structure-semantics/index.html)  
+[CSS: Inheritance and Specificity](https://rpeltz.bitbucket.io/assignments/week-2/2-css-inheritance-specificity/index-make.html)  
+[Box Model](https://rpeltz.bitbucket.io/assignments/week-2/3-box-model/index-make.html)  
+[Layout Horizontal](https://rpeltz.bitbucket.io/assignments/week-2/4-layout-horizontal/index-make.html)  
+[Layout 2D](https://rpeltz.bitbucket.io/assignments/week-2/5-layout-2d/index-make.html)  
+[Image Float Text](https://rpeltz.bitbucket.io/assignments/week-2/6-images-float-text/index-make.html)  
+[Web Linking and Navigation](https://rpeltz.bitbucket.io/assignments/week-2/7-web-linking-navigation/index-make.html)  
+[Fonts and Text](https://rpeltz.bitbucket.io/assignments/week-2/8-font-text/index-make.html)  
     
 
 
