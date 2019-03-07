@@ -9,6 +9,8 @@ Use the browser inspector tool to view margin, padding, border, content
 
 Use a style sheet the "normalizes" or "resets" browser default styles
 
+This code loads images using the `img` tag. When using the `img` tag its important to include and `alt` attribute with the tag.  This attribute provides a text description of the image.  Just like using semantic HTML to improve accessibility we want to include a textual description that will be displayed by the browser in case the image doesn't load, the user is using a screen reading and can't see the image or the bandwidth or device size needed to display the image isn't suffienct to present it properly.
+
 https://meyerweb.com/eric/tools/css/reset/
 
 1.Explore the elements of the rendered index.html file using the Chrome Dev Tools element inspector.  Track down the use source of styling for the default styles.  Look in particular at height, width, margin and padding.  

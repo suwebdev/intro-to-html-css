@@ -1,6 +1,11 @@
 # Requirements
 ## HTML: Structure and Semantics
 
+### Using Semantic HTML
+
+In the early days of web development, we only had the non semantic block and inline containers (`div` and `span`) to work with.  As the need for HTML code maintance grew and with publication of the first spec for CSS in 1998, we found a need to make HTML more readable and the structure more meaningful.  With creation of screen readers, the need for meaningful HTML became even more critical.  The spec for HTML 5 came out in 2014 and introduced a collection of semenatic tags.  You can find a summary here: [HTML 5 Semantic Tags](https://www.w3schools.com/html/html5_semantic_elements.asp)
+Today as we better understand the needs for users and our industries desire to provide usable websites, we look for ways write code that improves accessibility.  Semantic HTML is one of the recommended methods of improving Web Accessibility.  You can read more hear about the [markup spec and web accessibility] (https://www.w3.org/WAI/WCAG21/Techniques/).
+
 ### Use the following tags to create a web page that is sematically correct based on the content. 
 
 header, h1-h6, footer, section, article, p
